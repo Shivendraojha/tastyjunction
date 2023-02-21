@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(19, 19, 112), rgb(208, 118, 133));
+}
+.himg {
+    height: 100vh;
+    width: 98.9vw;
+    position: absolute;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container-fluid {
+    background: linear-gradient(to right, rgb(19, 19, 112), rgb(208, 118, 133));
+    height: 100px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.para {
+
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font: italic small-caps bold 100px/2 cursive;
+}
+
+
+.chaiheader {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding:20px;
+}
+.chaiheader img{
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.chai1 .chai2 .chai3{
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 400px;
+}
+.chai2 li{
+    font-size: 25px;
+    list-style: none;
+    font-weight: bolder;
+    color: rgb(192, 192, 192);
+}
+.chai3 img{
+    transform: rotateY(180deg);
+}
+.cvdo {
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 600px;
+}
+
+h1 {
+    font-size: 70px;
+    color: red;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    font: italic small-caps bold 100px/2 cursive;
+
+}
+.omenu{
+height: 1800px;
+}
+.mfood{
+    width: 60%;
+    
+   border-radius: 20%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.menus{
+    position: absolute;
+    margin-top: -400px;
+margin-left: 37%;
+    color:#af75b49e;
+}
+.mlist{
+    margin-top: 150px;
+    display: flex;
+}
+.mlist li{
+    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 25px ;
+    background-color: brown;
+    
+    border-radius: 10px;
+}
+.mlist li a{
+    text-decoration: none;
+    color: white;
+}
+ 
