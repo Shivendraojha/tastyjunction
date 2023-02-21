@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background: linear-gradient(to right, rgb(19, 19, 112), rgb(208, 118, 133));
+
+body {
+    background-color: rgb(195, 205, 190);
 }
+
 .himg {
     height: 100vh;
     width: 98.9vw;
@@ -52,28 +54,33 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding:20px;
+    padding: 20px;
 }
-.chaiheader img{
+
+.chaiheader img {
     height: 600px;
     border: 5px solid black;
     border-radius: 20px;
 }
-.chai1 .chai2 .chai3{
-    height: 600px;
+
+.chai1 .chai2 .chai3 {
+    height: 800px;
     border: 5px solid black;
     border-radius: 20px;
     width: 400px;
 }
-.chai2 li{
-    font-size: 25px;
+
+.chai2 li {
+    font-size: 20px;
     list-style: none;
     font-weight: bolder;
-    color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
 }
-.chai3 img{
+
+.chai3 img {
     transform: rotateY(180deg);
 }
+
 .cvdo {
     border: 5px solid black;
     border-radius: 20px;
@@ -89,38 +96,64 @@ h1 {
     font: italic small-caps bold 100px/2 cursive;
 
 }
-.omenu{
-height: 1800px;
+
+.chai1 {
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 100px;
+    display: inline-block;
 }
-.mfood{
+
+.omenu {
+    height: 1800px;
+}
+
+.mfood {
     width: 60%;
-    
-   border-radius: 20%;
+
+    border-radius: 20%;
     margin-left: 20%;
     margin-right: auto;
 }
-.menus{
+
+.menus {
     position: absolute;
     margin-top: -400px;
-margin-left: 37%;
-    color:#af75b49e;
+    margin-left: 37%;
+    color: #ffffff;
 }
-.mlist{
+
+.mlist {
     margin-top: 150px;
     display: flex;
 }
-.mlist li{
-    
-    display: flex;
-    align-items: center;
+
+.mlist ul {
+
     margin: auto;
-    padding: 10px 25px ;
+}
+
+.mlist li {
+    list-style: none;
+}
+
+.listhead {
+    padding: 10px 25px;
+    margin-bottom: 40px;
+
+    align-items: center;
     background-color: brown;
-    
     border-radius: 10px;
 }
-.mlist li a{
+
+.listhead a {
+ 
     text-decoration: none;
     color: white;
 }
- 
+
+.listfoot a {
+padding: 25px;
+    text-decoration: none;
+    color: black;
+}
